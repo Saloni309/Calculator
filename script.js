@@ -28,6 +28,7 @@ class calculator{
              this.currentOperand='';
     }
     compute(){
+        // this is to compute calculation.
              let computation;
              const prev=parseFloat(this.previousOperand);
              const curr=parseFloat(this.currentOperand);
